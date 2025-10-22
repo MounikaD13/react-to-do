@@ -1,0 +1,19 @@
+.todo button{
+  border: 1px solid blueviolet;
+  background-color: lavender;
+  padding: 7px;
+  margin: 7px;
+  border-radius: 10px;
+  
+}
+.todo input{
+  outline: none;
+  font-size: 1.1rem;
+  margin-left: 7px;
+  padding: 7px;
+  width: 30%;
+}
+.todo h2{
+  margin-top: 10px;
+  margin-left: 15px;
+}
