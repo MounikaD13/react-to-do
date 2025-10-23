@@ -28,8 +28,8 @@ function App() {
   };
 
   return (
-    <div className='todo '>
-      <h2> To-Do</h2>
+    <div className='todo'>
+      <h2 className='display-4'> To-Do</h2>
       <input type="text" placeholder="Enter a task" value={task} onChange={(e) => setTask(e.target.value)}/>
       <br />
       <button onClick={handleAddTask}>Add Task</button>

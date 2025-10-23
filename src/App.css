@@ -1,10 +1,13 @@
 .todo button{
-  border: 1px solid blueviolet;
-  background-color: lavender;
+  border: 1px solid aliceblue;
+  background-color: aliceblue;
   padding: 7px;
   margin: 7px;
   border-radius: 10px;
-  
+}
+.todo button:hover{
+  background-color: rgb(231, 231, 86);
+
 }
 .todo input{
   outline: none;
@@ -16,4 +19,14 @@
 .todo h2{
   margin-top: 10px;
   margin-left: 15px;
+  color: aliceblue;
+}
+body{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("https://i.pinimg.com/564x/b2/80/d1/b280d1d927ccd85f42d368b5a2197ed5.jpg");
+}
+li{
+  color: white;
+  font-size: 1.1rem;
 }
