@@ -28,12 +28,13 @@ function App() {
   };
 
   return (
-    <div className='todo'>
+    <div className='todo text-center'>
       <h2 className='display-4'> To-Do</h2>
       <input type="text" placeholder="Enter a task" value={task} onChange={(e) => setTask(e.target.value)}/>
-      <br />
+     
       <button onClick={handleAddTask}>Add Task</button>
-      <ul>
+      <div>
+        <ul className='d-flex flex-column align-items-center'>
         {tasks.map((t, index) => (
           <li key={index}>
             {t}{' '}
@@ -41,6 +42,7 @@ function App() {
           </li>
         ))}
       </ul>
+      </div>
     </div>
   );
 }
